@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerMaster" id="{1068eac2-5cf6-4590-8f4f-f4e342151b47}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6cb259eb-98d8-4816-ab11-34ca31ff5eff}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{db056c44-ac40-400f-92a8-7ed5b9935d35}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{31dab9ac-04bd-4f9e-ae13-9d3e22d6b435}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6cb259eb-98d8-4816-ab11-34ca31ff5eff}">
+		<relationship name="effects">
+			<destination>{4336fdaf-aa8e-48b3-9dbd-179f728d662d}</destination>
+			<destination>{b8f9a752-9137-45fa-ad36-8678e5755b62}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{db056c44-ac40-400f-92a8-7ed5b9935d35}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{4336fdaf-aa8e-48b3-9dbd-179f728d662d}" />
+	<object class="PluginEffect" id="{b8f9a752-9137-45fa-ad36-8678e5755b62}">
+		<relationship name="plugin">
+			<destination>{59369f4f-36fc-471f-a98b-3c48f05be0cb}</destination>
+		</relationship>
+	</object>
+	<object class="Plugin" id="{59369f4f-36fc-471f-a98b-3c48f05be0cb}">
+		<property name="identifier">
+			<value>MetaXRAudio Reflections</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{9150ea5b-7eb7-4340-b66e-5c9f45c5b400}</destination>
+			<destination>{8840059b-aaf2-487c-8b87-e823ed2f88bd}</destination>
+			<destination>{d7dabda6-0e29-450a-ad7b-ebc2eed1078d}</destination>
+			<destination>{b129f671-9e5c-435b-8bad-97ec97fcb3b6}</destination>
+			<destination>{ee507232-2eb7-4b07-8053-4c12a8b70694}</destination>
+			<destination>{b9981912-a124-4db4-ace3-3dfe82fd8dd4}</destination>
+			<destination>{6e3a30be-62a0-4474-a06d-9495e010b5b5}</destination>
+			<destination>{0e8a42e9-bec1-498b-84c4-f9f35e81429e}</destination>
+		</relationship>
+	</object>
+	<object class="BoolPluginParameter" id="{9150ea5b-7eb7-4340-b66e-5c9f45c5b400}">
+		<property name="name">
+			<value>Early Refl.</value>
+		</property>
+		<property name="value">
+			<value>true</value>
+		</property>
+	</object>
+	<object class="BoolPluginParameter" id="{8840059b-aaf2-487c-8b87-e823ed2f88bd}">
+		<property name="name">
+			<value>Reverb Enabled</value>
+		</property>
+		<property name="value">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="DataPluginParameter" id="{d7dabda6-0e29-450a-ad7b-ebc2eed1078d}">
+		<property name="name">
+			<value>Overall Gain</value>
+		</property>
+		<property name="value" />
+		<property name="dataType">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{b129f671-9e5c-435b-8bad-97ec97fcb3b6}">
+		<property name="name">
+			<value>Reverb Level</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,-60.000000)(1.000000,-40.000000)(2.000000,-20.000000)(3.000000,-12.000000)(4.000000,-6.000000)(5.000000,-2.000000)(6.000000,0.000000)(7.000000,2.000000)(8.000000,6.000000)(9.000000,12.000000)(10.000000,20.000000)}</value>
+		</property>
+	</object>
+	<object class="IntPluginParameter" id="{ee507232-2eb7-4b07-8053-4c12a8b70694}">
+		<property name="name">
+			<value>Voice Limit</value>
+		</property>
+		<property name="value">
+			<value>64</value>
+		</property>
+		<property name="minimumValue">
+			<value>1</value>
+		</property>
+		<property name="maximumValue">
+			<value>1024</value>
+		</property>
+	</object>
+	<object class="BoolPluginParameter" id="{b9981912-a124-4db4-ace3-3dfe82fd8dd4}">
+		<property name="name">
+			<value>Editor Bypass</value>
+		</property>
+		<property name="value">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="BoolPluginParameter" id="{6e3a30be-62a0-4474-a06d-9495e010b5b5}">
+		<property name="name">
+			<value>Source Pri.</value>
+		</property>
+		<property name="value">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="IntPluginParameter" id="{0e8a42e9-bec1-498b-84c4-f9f35e81429e}">
+		<property name="name">
+			<value>Num Priority</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="minimumValue">
+			<value>0</value>
+		</property>
+		<property name="maximumValue">
+			<value>1024</value>
+		</property>
+	</object>
+</objects>

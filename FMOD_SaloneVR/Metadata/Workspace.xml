@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Workspace" id="{93ad1866-1738-490a-b6f3-3f618d352dc6}">
+		<property name="builtBanksOutputDirectory">
+			<value>../SaloneVR/FMOD_Banks</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{c79f050a-8f40-4cff-8263-44f27230538f}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{9aabad72-07bb-4fab-bd83-991eb09a8fbb}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{5d1b2806-ca0b-45be-a6a4-2c9ed72746ab}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{0cbb2c4a-acc4-48c1-a3a6-c31dc715aad1}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{5978c686-8fc5-4c7b-846a-ae8ccaa9e080}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{a1a97b98-9ba6-4fd7-9f0b-be762b62110c}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{cde68852-7678-42c6-a83a-aa4dc9b27d2a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{31dab9ac-04bd-4f9e-ae13-9d3e22d6b435}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{961d7afc-db8e-433f-aad8-93945c77700b}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{b779fb11-6dcd-40d0-8794-0b8dcf1039d1}</destination>
+			<destination>{b3561c71-4a1a-460a-8d3a-309940e5257f}</destination>
+		</relationship>
+	</object>
+</objects>
