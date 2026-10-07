@@ -8,6 +8,13 @@ TagManager:
   - TennisBall
   - Box
   - Trail
+  - Hard
+  - Soft
+  - Vetro
+  - Stufa
+  - Tv
+  - Tappeto
+  - Metal
   layers:
   - Default
   - TransparentFX
