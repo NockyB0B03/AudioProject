@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{41c3c84e-14a1-4da6-8c85-3aafea57ce2f}">
+		<property name="assetPath">
+			<value>Ambience/Inside/82367__gynation__rain-on-plastic-roof.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>59.698503401360547</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cde68852-7678-42c6-a83a-aa4dc9b27d2a}</destination>
+		</relationship>
+	</object>
+</objects>

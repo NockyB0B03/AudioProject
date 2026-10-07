@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{19e3434e-ba4f-47ed-8dd6-19c03f25ab93}">
+		<property name="assetPath">
+			<value>Ambience/Inside/397718__kangaroovindaloo__wind-hakea-1-no-eq.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>226.39208333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cde68852-7678-42c6-a83a-aa4dc9b27d2a}</destination>
+		</relationship>
+	</object>
+</objects>

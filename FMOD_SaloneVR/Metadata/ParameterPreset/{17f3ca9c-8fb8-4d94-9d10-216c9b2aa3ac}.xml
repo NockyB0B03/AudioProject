@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{17f3ca9c-8fb8-4d94-9d10-216c9b2aa3ac}">
+		<property name="name">
+			<value>Event Orientation</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0cbb2c4a-acc4-48c1-a3a6-c31dc715aad1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bf285d98-9214-48a3-acd2-9fc2fc4adedc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bf285d98-9214-48a3-acd2-9fc2fc4adedc}">
+		<property name="parameterType">
+			<value>7</value>
+		</property>
+		<property name="minimum">
+			<value>-180</value>
+		</property>
+		<property name="maximum">
+			<value>180</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

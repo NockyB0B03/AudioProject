@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{ac662952-7c95-40ff-b83a-ad5457f473a5}">
+		<property name="assetPath">
+			<value>Bounces/Soft/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cde68852-7678-42c6-a83a-aa4dc9b27d2a}</destination>
+		</relationship>
+	</object>
+</objects>
