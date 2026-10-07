@@ -7616,27 +7616,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6818
+      value: 0.85005075
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6818
+      value: 0.85005075
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6818
+      value: 0.85005075
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.4282
+      value: -4.2923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.15
+      value: -0.13335
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.5867
+      value: -8.7562
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7771,7 +7771,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 7.2000003
 --- !u!1 &1886392811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8130560282236414093, guid: 8d8fb26dd6a666247b80ad25ad1e316b, type: 3}
@@ -9001,7 +9001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlidingDoorTouchController
   slideDistance: 0.8
   slideDirection: {x: -1, y: 0, z: 0}
-  speed: 3
+  speed: 1.5
   openSound:
     Guid:
       Data1: 1501796341
