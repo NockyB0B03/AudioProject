@@ -231,9 +231,10 @@
 			<destination>{738c43d4-aabe-4d71-9279-325da6427bbb}</destination>
 			<destination>{c834f2c9-92ec-4c1e-882f-c2440223cdb8}</destination>
 			<destination>{48265247-d848-4a1e-902d-2cf26d797826}</destination>
-			<destination>{47175b8d-e908-471d-b08e-4b6022bf1b86}</destination>
 			<destination>{555c3cf5-2e1a-45c2-838e-cd0dfaed9024}</destination>
 			<destination>{1fc25703-fb52-4138-9b32-bba4c628a67d}</destination>
+			<destination>{5b13c8df-eb83-4051-8dd2-81c3baf20134}</destination>
+			<destination>{47175b8d-e908-471d-b08e-4b6022bf1b86}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ef6552f7-7a97-40ce-a756-7e0fd27ea28a}" />
@@ -434,7 +435,6 @@
 			<destination>{c7f971bd-6716-4185-8f8d-5cc04373f9d0}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusFader" id="{47175b8d-e908-471d-b08e-4b6022bf1b86}" />
 	<object class="PluginEffect" id="{555c3cf5-2e1a-45c2-838e-cd0dfaed9024}">
 		<relationship name="plugin">
 			<destination>{5246c8b4-5bf4-46dd-8fab-1a55d3958605}</destination>
@@ -451,6 +451,12 @@
 			<destination>{198dbed1-85b9-4174-831f-3528d5be6775}</destination>
 		</relationship>
 	</object>
+	<object class="GainEffect" id="{5b13c8df-eb83-4051-8dd2-81c3baf20134}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{47175b8d-e908-471d-b08e-4b6022bf1b86}" />
 	<object class="MixerBusFader" id="{cc57c554-638d-40ae-b2db-447feb1dbc84}" />
 	<object class="Automator" id="{c7f971bd-6716-4185-8f8d-5cc04373f9d0}">
 		<property name="nameOfPropertyBeingAutomated">
@@ -546,7 +552,7 @@
 			<value>Atten. Mode</value>
 		</property>
 		<property name="value">
-			<value>3</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>

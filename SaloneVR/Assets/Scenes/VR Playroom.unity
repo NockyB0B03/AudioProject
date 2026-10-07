@@ -472,8 +472,47 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6206195308603300135, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 242430002}
   m_SourcePrefab: {fileID: 100100000, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+--- !u!1 &242430001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+  m_PrefabInstance: {fileID: 242430000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &242430002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242430001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1551032931
+      Data2: 1109755104
+      Data3: 7525511
+      Data4: -876025149
+    Path: event:/Albero 3
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &274303673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3426,6 +3465,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6712404057516527452, guid: b4d538715c7469342811939a08b911d2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1223773146}
+    - targetCorrespondingSourceObject: {fileID: 6712404057516527452, guid: b4d538715c7469342811939a08b911d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1223773148}
   m_SourcePrefab: {fileID: 100100000, guid: b4d538715c7469342811939a08b911d2, type: 3}
 --- !u!1001 &773190229
 PrefabInstance:
@@ -3544,8 +3586,47 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6206195308603300135, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773885548}
   m_SourcePrefab: {fileID: 100100000, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+--- !u!1 &773885547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+  m_PrefabInstance: {fileID: 773885546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &773885548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773885547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1793126464
+      Data2: 1191965216
+      Data3: 457448106
+      Data4: 768002412
+    Path: event:/Albero 2
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &777888645 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8907660275367916087, guid: 8d8fb26dd6a666247b80ad25ad1e316b, type: 3}
@@ -3792,8 +3873,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 879469805}
   m_SourcePrefab: {fileID: 100100000, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+--- !u!1 &879469804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+  m_PrefabInstance: {fileID: 879469803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &879469805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879469804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1654388881
+      Data2: 1256793245
+      Data3: 1100652696
+      Data4: 251937604
+    Path: event:/Albero 4
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &920921510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4890,6 +5010,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1223773148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163096400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1951199055
+      Data2: 1116490812
+      Data3: -1419308389
+      Data4: -2012434257
+    Path: event:/Sedia
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1262177448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7025,7 +7176,7 @@ Transform:
   m_GameObject: {fileID: 1747816547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.006, y: 1.284, z: 4.007}
+  m_LocalPosition: {x: -0.006, y: 1.284, z: 3.007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7611,7 +7762,7 @@ MonoBehaviour:
       Data4: -204101097
     Path: event:/ParcoGiochi
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 1
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -8087,8 +8238,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2074272898}
   m_SourcePrefab: {fileID: 100100000, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+--- !u!1 &2074272897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+  m_PrefabInstance: {fileID: 2074272896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2074272898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074272897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 287412832
+      Data2: 1167503141
+      Data3: 62775478
+      Data4: 1246078848
+    Path: event:/Albero
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2079487895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8348,8 +8538,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 2.7803571, z: 1}
+  m_Center: {x: 0, y: -0.8901756, z: 0}
 --- !u!23 &2103914341
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8416,7 +8606,7 @@ Transform:
   m_GameObject: {fileID: 2103914338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.39, y: -0.17, z: -9.29}
+  m_LocalPosition: {x: 0.39, y: 7.23, z: -9.29}
   m_LocalScale: {x: 15.316509, y: 4.3234, z: 13.818019}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8821,11 +9011,11 @@ MonoBehaviour:
     Path: event:/Apertura
   closeSound:
     Guid:
-      Data1: -356530270
-      Data2: 1085297332
-      Data3: -77004917
-      Data4: -549878351
-    Path: event:/AperturaChiusura
+      Data1: -1257114678
+      Data2: 1248377730
+      Data3: 1532181401
+      Data4: 178736315
+    Path: event:/Chiusura
   triggerOnSelect: 1
 --- !u!114 &5893867043419522544
 MonoBehaviour:
