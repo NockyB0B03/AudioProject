@@ -127,8 +127,8 @@
 	<object class="MixerBusEffectChain" id="{9fe76f85-8654-4fd3-bb78-822d3f7eeb32}">
 		<relationship name="effects">
 			<destination>{377772b1-e089-485c-9f0f-329321f83e1e}</destination>
-			<destination>{3ff0177f-82e3-404b-b2d1-6d48ba987534}</destination>
 			<destination>{93a8090f-064c-46c6-b6d5-29df4ed0c874}</destination>
+			<destination>{3ff0177f-82e3-404b-b2d1-6d48ba987534}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e0349cf9-f698-49e9-a134-534811f6b497}" />
@@ -160,16 +160,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{e487cc10-b122-4cfc-8a8f-1fef60780b99}" />
 	<object class="GainEffect" id="{377772b1-e089-485c-9f0f-329321f83e1e}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<relationship name="automators">
 			<destination>{4bccfc3d-97bb-43fb-997f-bc3cb7ba42f3}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusFader" id="{3ff0177f-82e3-404b-b2d1-6d48ba987534}" />
 	<object class="PluginEffect" id="{93a8090f-064c-46c6-b6d5-29df4ed0c874}">
 		<relationship name="plugin">
 			<destination>{fb2c7d8c-8ccc-45bd-9466-ba4fb2153b70}</destination>
 		</relationship>
 	</object>
+	<object class="MixerBusFader" id="{3ff0177f-82e3-404b-b2d1-6d48ba987534}" />
 	<object class="MixerBusFader" id="{d14ee520-fe01-4b2a-b8bd-99b37b70cbb2}" />
 	<object class="Automator" id="{4bccfc3d-97bb-43fb-997f-bc3cb7ba42f3}">
 		<property name="nameOfPropertyBeingAutomated">

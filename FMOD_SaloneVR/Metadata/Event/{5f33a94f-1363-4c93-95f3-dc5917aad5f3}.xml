@@ -60,7 +60,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{cc12c6f9-7d20-4753-be48-311f8711dd0b}">
 		<property name="maximumDistance">
-			<value>7.20000029</value>
+			<value>9</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{5d419827-8dbf-4ee5-a432-0e09bd11a2cf}" />
@@ -100,7 +100,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{55773b8d-57b7-41e5-8508-ca0c8f6e8741}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-15.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1727ad96-fbaf-44d8-b34b-cf69cc079144}</destination>

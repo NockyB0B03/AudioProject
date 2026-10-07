@@ -64,7 +64,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{50b898f9-b6ca-4176-8d4b-f818f66fabcf}">
 		<property name="maximumDistance">
-			<value>6</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{aca198f5-32e5-4d92-a188-9772a3144a0a}" />
@@ -91,7 +91,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6bf01a5b-56c1-4f1f-9380-f50373b8a064}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-25</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{e2ac75a5-8370-4d6f-ab29-7b06904581f5}</destination>
@@ -156,8 +156,8 @@
 	<object class="MixerBusEffectChain" id="{e2ac75a5-8370-4d6f-ab29-7b06904581f5}">
 		<relationship name="effects">
 			<destination>{8ab138d9-ad78-42e9-91eb-b44edf33dde7}</destination>
-			<destination>{38908ba4-ffe7-4ec2-8a7b-1cc090ec7a9a}</destination>
 			<destination>{861aac5e-8202-4468-ad1f-b8b3f7abf7dd}</destination>
+			<destination>{38908ba4-ffe7-4ec2-8a7b-1cc090ec7a9a}</destination>
 			<destination>{1002717f-158f-4464-ab51-a950c224e6e3}</destination>
 		</relationship>
 	</object>
@@ -177,16 +177,13 @@
 			<destination>{22647516-2087-4f2b-82f4-5eaf18e48d2b}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusFader" id="{38908ba4-ffe7-4ec2-8a7b-1cc090ec7a9a}" />
 	<object class="PluginEffect" id="{861aac5e-8202-4468-ad1f-b8b3f7abf7dd}">
 		<relationship name="plugin">
 			<destination>{9be8b654-af3c-4a3e-8deb-da19305c3c65}</destination>
 		</relationship>
 	</object>
+	<object class="MixerBusFader" id="{38908ba4-ffe7-4ec2-8a7b-1cc090ec7a9a}" />
 	<object class="MixerSend" id="{1002717f-158f-4464-ab51-a950c224e6e3}">
-		<property name="level">
-			<value>-56</value>
-		</property>
 		<property name="inputFormat">
 			<value>1</value>
 		</property>

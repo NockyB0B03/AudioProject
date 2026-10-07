@@ -59,7 +59,11 @@
 			<destination>{1068eac2-5cf6-4590-8f4f-f4e342151b47}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{4653e79e-6ed7-4511-97e1-71474856ba8f}" />
+	<object class="EventAutomatableProperties" id="{4653e79e-6ed7-4511-97e1-71474856ba8f}">
+		<property name="maximumDistance">
+			<value>7.5999999</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{5f8c15ef-9429-40f4-b89c-b21d7a405dec}" />
 	<object class="GroupTrack" id="{e4947580-adac-49f3-9e0f-e83c9e1e6409}">
 		<relationship name="modules">
@@ -109,7 +113,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{cd067433-82f5-4594-8f8b-2a3e9eabc97a}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -143,7 +147,7 @@
 	<object class="MixerBusPanner" id="{ea8bbfd7-c8d1-45aa-a6b1-9c866ab20ea3}" />
 	<object class="GainEffect" id="{ffbb308b-3883-436e-bb8e-6f6974866931}">
 		<property name="gain">
-			<value>-19</value>
+			<value>-13.5</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{9b73c4ee-bdd8-4590-961f-85f62748e002}">
@@ -249,7 +253,7 @@
 			<value>Atten. Mode</value>
 		</property>
 		<property name="value">
-			<value>3</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
