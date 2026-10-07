@@ -105,7 +105,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{6659e3d0-a7c4-481f-b0fb-689e0972d3b0}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>4</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c1887d01-332d-468e-8e52-9d30c64a41b2}</destination>
@@ -210,6 +210,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f15051a1-d0e1-49fe-8792-955d0dd6782a}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="name">
 			<value>BounceTypes</value>
 		</property>
@@ -225,6 +228,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{c1887d01-332d-468e-8e52-9d30c64a41b2}">
 		<relationship name="effects">
+			<destination>{738c43d4-aabe-4d71-9279-325da6427bbb}</destination>
+			<destination>{c834f2c9-92ec-4c1e-882f-c2440223cdb8}</destination>
 			<destination>{48265247-d848-4a1e-902d-2cf26d797826}</destination>
 			<destination>{47175b8d-e908-471d-b08e-4b6022bf1b86}</destination>
 			<destination>{555c3cf5-2e1a-45c2-838e-cd0dfaed9024}</destination>
@@ -414,6 +419,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7c843b94-f04c-4713-9b5b-5d0ef6977aa7}" />
+	<object class="GainEffect" id="{738c43d4-aabe-4d71-9279-325da6427bbb}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{c834f2c9-92ec-4c1e-882f-c2440223cdb8}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="GainEffect" id="{48265247-d848-4a1e-902d-2cf26d797826}">
 		<relationship name="automators">
 			<destination>{c7f971bd-6716-4185-8f8d-5cc04373f9d0}</destination>
@@ -679,7 +694,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-40</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d3e0cc5b-ee34-436a-8aa1-c0a0d51f4484}">
@@ -687,7 +702,7 @@
 			<value>100</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>10</value>
 		</property>
 	</object>
 </objects>
