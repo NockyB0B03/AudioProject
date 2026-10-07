@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{32a309d4-7d37-417a-ab4d-24c04fb45e3a}">
+		<property name="assetPath">
+			<value>Cappello/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cde68852-7678-42c6-a83a-aa4dc9b27d2a}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -416,37 +416,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.5311275, y: 1.1227427, z: 0.025566578}
   m_Center: {x: -0.14474855, y: 1.4740753, z: 2.153163}
---- !u!114 &229106362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6406719122729826172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2049209766
-      Data2: 1282553700
-      Data3: 1758334336
-      Data4: 1190912853
-    Path: event:/Finestra
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &242430000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1912,37 +1881,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &533141975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148788734688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 698024929
-      Data2: 1216675060
-      Data3: -295405396
-      Data4: -1697953297
-    Path: event:/Porta
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &534406402
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3622,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1446520290241530022, guid: e47d1d603e6f7de498727aba1230cd7d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1017088192}
+    - targetCorrespondingSourceObject: {fileID: 1446520290241530022, guid: e47d1d603e6f7de498727aba1230cd7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1017088196}
+    - targetCorrespondingSourceObject: {fileID: 1446520290241530022, guid: e47d1d603e6f7de498727aba1230cd7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1017088195}
+    - targetCorrespondingSourceObject: {fileID: 1446520290241530022, guid: e47d1d603e6f7de498727aba1230cd7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1017088194}
   m_SourcePrefab: {fileID: 100100000, guid: e47d1d603e6f7de498727aba1230cd7d, type: 3}
 --- !u!1 &848845084 stripped
 GameObject:
@@ -4336,6 +4283,89 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1017088194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017088191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: Tappeto
+  EventReference:
+    Guid:
+      Data1: -427607121
+      Data2: 1308342193
+      Data3: -1424549210
+      Data4: 917243219
+    Path: event:/Cappello
+  Event: 
+  EventPlayTrigger: 7
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!65 &1017088195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017088191}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.29319793, y: 0.14263599, z: 0.36513227}
+  m_Center: {x: 0.000054344535, y: -0.01955227, z: 0.008350097}
+--- !u!114 &1017088196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017088191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -427607121
+      Data2: 1308342193
+      Data3: -1424549210
+      Data4: 917243219
+    Path: event:/Cappello
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1074391866
 GameObject:
   m_ObjectHideFlags: 0
@@ -5098,7 +5128,6 @@ GameObject:
   - component: {fileID: 1313711688}
   - component: {fileID: 1313711686}
   - component: {fileID: 1313711687}
-  - component: {fileID: 1313711689}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Player
@@ -5231,37 +5260,6 @@ MonoBehaviour:
   m_BodyPositionEvaluatorObject: {fileID: 0}
   m_ConstrainedBodyManipulatorObject: {fileID: 0}
   m_UseCharacterControllerIfExists: 1
---- !u!114 &1313711689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313711679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -461737355
-      Data2: 1322428569
-      Data3: -1937807693
-      Data4: -1196688787
-    Path: event:/AmbienceInside
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &1323793503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6643,7 +6641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
+  CollisionTag: TennisBall
   EventReference:
     Guid:
       Data1: 791030756
@@ -6652,7 +6650,7 @@ MonoBehaviour:
       Data4: 292911667
     Path: event:/Racchetta
   Event: 
-  EventPlayTrigger: 0
+  EventPlayTrigger: 3
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -6919,7 +6917,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 6.4
 --- !u!135 &1747816549
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7532,6 +7530,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1879090241}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879090242}
     - targetCorrespondingSourceObject: {fileID: -4593130486874181694, guid: 8ee7b5b5d9fb5d8408c5606e7cf08363, type: 3}
       insertIndex: -1
       addedObject: {fileID: 944819961}
@@ -7569,6 +7570,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1879090242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879090239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1597221199
+      Data2: 1284707171
+      Data3: 1507652501
+      Data4: -204101097
+    Path: event:/ParcoGiochi
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1886392811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8130560282236414093, guid: 8d8fb26dd6a666247b80ad25ad1e316b, type: 3}
@@ -8226,6 +8258,150 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4156622525105213751, guid: 578b05d48f135824788f29020766e26b, type: 3}
   m_PrefabInstance: {fileID: 487324546}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2103914338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103914343}
+  - component: {fileID: 2103914342}
+  - component: {fileID: 2103914341}
+  - component: {fileID: 2103914340}
+  - component: {fileID: 2103914339}
+  m_Layer: 0
+  m_Name: err
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2103914339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103914338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 935175102
+      Data2: 1128313989
+      Data3: 1864736661
+      Data4: 1076536969
+    Path: event:/AmbienceOutside
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!65 &2103914340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103914338}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2103914341
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103914338}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2103914342
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103914338}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2103914343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103914338}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.39, y: -0.17, z: -9.29}
+  m_LocalScale: {x: 15.316509, y: 4.3234, z: 13.818019}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118528533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3667225894368889741, guid: 578b05d48f135824788f29020766e26b, type: 3}
@@ -8395,7 +8571,6 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652991418458}
   - component: {fileID: 533141974}
-  - component: {fileID: 533141975}
   m_Layer: 0
   m_Name: Room_Rustic_All
   m_TagString: Untagged
@@ -8619,18 +8794,18 @@ MonoBehaviour:
   speed: 3
   openSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1501796341
+      Data2: 1078783347
+      Data3: 900001697
+      Data4: -1635940745
+    Path: event:/Apertura
   closeSound:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -356530270
+      Data2: 1085297332
+      Data3: -77004917
+      Data4: -549878351
+    Path: event:/AperturaChiusura
   triggerOnSelect: 1
 --- !u!114 &5893867043419522544
 MonoBehaviour:
@@ -8706,6 +8881,37 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AutoFindParentInteractableInHierarchy: 0
   m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &5893867043419522545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893867043419522542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 698024929
+      Data2: 1216675060
+      Data3: -295405396
+      Data4: -1697953297
+    Path: event:/Porta
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &6147376137993327464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8780,6 +8986,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5217552971786599215, guid: 55c501ac4ad279a4fafd444d5ecd88f0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5893867043419522544}
+    - targetCorrespondingSourceObject: {fileID: 5217552971786599215, guid: 55c501ac4ad279a4fafd444d5ecd88f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5893867043419522545}
   m_SourcePrefab: {fileID: 100100000, guid: 55c501ac4ad279a4fafd444d5ecd88f0, type: 3}
 --- !u!33 &6373259452017392364
 MeshFilter:
@@ -8801,7 +9010,6 @@ GameObject:
   - component: {fileID: 2320837239568247636}
   - component: {fileID: 3423886423027755732}
   - component: {fileID: 229106361}
-  - component: {fileID: 229106362}
   m_Layer: 0
   m_Name: Room_Rustic_Window
   m_TagString: Vetro
@@ -8835,6 +9043,8 @@ GameObject:
   - component: {fileID: 7323294308151830658}
   - component: {fileID: 2492424102785691187}
   - component: {fileID: 9118368948838935742}
+  - component: {fileID: 9118368948838935744}
+  - component: {fileID: 9118368948838935743}
   m_Layer: 0
   m_Name: Room_Rustic_Ceiling
   m_TagString: Untagged
@@ -9028,6 +9238,58 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9118368948838935743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7726773158444586018}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.946486, y: 2.7462785, z: 3.9062152}
+  m_Center: {x: 0, y: -1.2429651, z: 0}
+--- !u!114 &9118368948838935744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7726773158444586018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -461737355
+      Data2: 1322428569
+      Data3: -1937807693
+      Data4: -1196688787
+    Path: event:/AmbienceInside
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 4
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -9053,3 +9315,4 @@ SceneRoots:
   - {fileID: 543450652991418458}
   - {fileID: 1074391869}
   - {fileID: 476656024}
+  - {fileID: 2103914343}
